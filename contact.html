@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | StripperSEO</title>
+    
+    <!-- Bootstrap 5.3 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS for Theme -->
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        }
+        .text-neon {
+            color: #ff2a85;
+        }
+        .bg-neon {
+            background-color: #ff2a85;
+            color: white;
+        }
+        .btn-neon {
+            background-color: #ff2a85;
+            color: white;
+            border: 2px solid #ff2a85;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .btn-neon:hover {
+            background-color: transparent;
+            color: #ff2a85;
+            border-color: #ff2a85;
+        }
+        .contact-section {
+            background: radial-gradient(circle at top right, #2e0918 0%, #121212 60%);
+            padding: 80px 0;
+            min-height: 80vh;
+        }
+        .form-control {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            color: #fff;
+        }
+        .form-control:focus {
+            background-color: #222;
+            border-color: #ff2a85;
+            box-shadow: 0 0 0 0.25rem rgba(255, 42, 133, 0.25);
+            color: #fff;
+        }
+        .contact-card {
+            background-color: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-secondary">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-white" href="index.html">
+                Stripper<span class="text-neon">SEO</span>
+            </a>
+            <div class="d-flex align-items-center">
+                <a href="tel:8542402141" class="btn btn-neon rounded-pill px-4">
+                    Call 854-240-2141
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                
+                <!-- Contact Info -->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h1 class="display-5 fw-bold text-white mb-4">Get in <span class="text-neon">Touch</span></h1>
+                    <p class="lead mb-4">Ready to lock in your links? Have questions about our packages? Reach out to us directly.</p>
+                    
+                    <div class="mb-4">
+                        <h4 class="fw-bold">Phone</h4>
+                        <p class="fs-5"><a href="tel:8542402141" class="text-decoration-none text-light">854-240-2141</a></p>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <h4 class="fw-bold">Email</h4>
+                        <p class="fs-5"><a href="mailto:susanleemik@gmail.com" class="text-decoration-none text-light">susanleemik@gmail.com</a></p>
+                    </div>
+
+                    <div class="mt-5 p-4 contact-card border-danger">
+                        <h5 class="text-neon fw-bold mb-2">Limited Inventory Notice</h5>
+                        <p class="mb-0 text-muted small">Due to the nature of our exclusive link building, we operate on a first-come, first-served basis. If packages are sold out, you will be placed on a waitlist.</p>
+                    </div>
+                </div>
+
+                <!-- FormSubmit.co Form -->
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="contact-card p-4 p-md-5">
+                        <h3 class="fw-bold mb-4">Send a Message</h3>
+                        
+                        <!-- FORMSUBMIT CONFIGURATION -->
+                        <form action="https://formsubmit.co/susanleemik@gmail.com" method="POST">
+                            
+                            <!-- Hidden Subject Field for your Inbox -->
+                            <input type="hidden" name="_subject" value="New Lead from StripperSEO Website!">
+                            <!-- Disables the captcha for a smoother user experience (optional) -->
+                            <input type="hidden" name="_captcha" value="false">
+                            
+                            <div class="mb-3">
+                                <label for="name" class="form-label text-muted">Name or Stage Name</label>
+                                <input type="text" class="form-control py-2" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-muted">Email Address</label>
+                                <input type="email" class="form-control py-2" id="email" name="email" required>
+                                <div class="form-text text-secondary">We'll reply to this email (usually within 24 hours).</div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="website" class="form-label text-muted">Website URL (Optional)</label>
+                                <input type="url" class="form-control py-2" id="website" name="website" placeholder="https://">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="message" class="form-label text-muted">Message / Package Request</label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Let us know if you want a homepage link or inner page link..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-neon w-100 py-3 rounded-pill fs-5">
+                                Submit Request
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center py-4 border-top border-secondary">
+        <div class="container">
+            <p class="text-muted small mb-0">
+                &copy; 2026 StripperSEO. All rights reserved. 
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
